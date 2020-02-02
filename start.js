@@ -17,9 +17,10 @@ for (var i = 1;  i < 10; i++ ) {
     return items;    
 };
 var out =  massArray();
-//out.forEach(element => {
- //   console.log(element);
-//});
+for (let iterator of out) {
+    console.log(out);  
+    
+}
 out[1]();
 out[2]();
 out[3]();
