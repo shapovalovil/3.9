@@ -21,6 +21,30 @@ for (let iterator of out) {
     console.log(out);  
     
 }
+
+let fun = () => {
+    console.log('sdsa');
+};
+fun();
 out[1]();
 out[2]();
 out[3]();
+
+let btn = document.getElementById('btn');
+
+let Ia = {
+    num: 10,
+func: function() {
+    let at = ()=>{
+        console.log(this);
+    };
+ at();
+}
+};
+//Ia.func();
+let olddiv = document.getElementById("olddiv"); console.log(olddiv);
+//let new_div = document.createElement("div");
+//old_div.appendChild(new_div);
+
+
+
