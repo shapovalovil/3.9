@@ -42,9 +42,10 @@ func: function() {
 }
 };
 //Ia.func();
-let olddiv = document.getElementById("olddiv"); console.log(olddiv);
-//let new_div = document.createElement("div");
-//old_div.appendChild(new_div);
+let olddiv = document.querySelector(".olddiv"); 
+console.log(olddiv);
+let new_div = document.createElement("div");
+//old.appendChild(new_div);
 
 
 
